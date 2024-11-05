@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFF5D3;
+}
+nav a:hover{
+    background-color: #70e0f6;
+    transition: 1s;
+}
+
+header{
+background: #ffffff;
+    display: flex;
+        position: fixed;
+           border-top: 5px solid rgb(253, 179, 179);
+    border-bottom: 5px solid rgb(0, 0, 0);}
+
+header img{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.hatka{
+
+font-family: Gill Sans;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+color: #ff0000;
+justify-content: flex-start;
+display: flex;
+width: 100%;
+background-color: #ffffff;
+}
+.hatka:hover{
+    color: black;
+    transition: 1s;
+}
+
+
+main{
+    border: #f7dc85 solid 5px;
+    padding: 8px;
+}
+nav {
+ 
+
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: white;
+}
+nav a {
+    font-size: 14px;
+      color: rgb(13, 0, 65);
+    text-decoration: none;
+    margin: 10px;
+    background-color: #fcbd3e;
+    border-radius: 10%;
+    padding: 10px;
+}
+.special{
+    background-color: #fa4747;
+    padding: 10px;
+}
+.special:hover{
+    background-color: #DF9300;
+}
+section{
+    background-color: rgb(184, 255, 255);
+}
+article{
+    border:5px solid #DF9300;
+}
+
+article:hover{
+    width: 100%;
+    background-color: #7bdcd3;
+    color: rgb(43, 0, 58);
+    transition: 1s;
+}
+article img{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+article h2{
+justify-content: flex-start;
+    width: fit-content;
+}
+footer{
+    background-color: #DF9300;
+    padding: 20px;
+}
+h1:hover{
+    font-size: 50px;
+    transition: 2s;
+}
+li:hover{
+    color: #fa4747;
+    transition: 0.5s;
+}
